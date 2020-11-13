@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
     <title>Document</title>
 </head>
 <body>
     <header class="">
-        <nav>
+        <nav class="main-nav">
             <!-- Логотип -->
             <a href="../studiya/studiya.html">
-                <p><span class="">Web</span>Studio</p>
+                <p><span class="logo">Web</span>Studio</p>
             </a>
             <!-- Навигация на другие страницы -->
             <ul>
@@ -22,23 +22,24 @@
         </nav>
         <ul>
             <!-- Ссылка на адрес электронной почты  -->
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <!-- Ссылка на телефонный номер -->
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
-      <section>
+        <div class="proekty">
+      <section class="vybor-proekta">
         <h2>Фильтр выбора проекта</h2>
         <ul>
-            <li><a href="">Все</a></li>
-            <li><a href="">Веб-сайты</a></li>
-            <li><a href="">Приложения</a></li>
-            <li><a href="">Дизайн</a></li>
-            <li><a href="">Маркетинг</a></li>
+            <li><a width=73px href="">Все</a></li>
+            <li><a width=128px href="">Веб-сайты</a></li>
+            <li><a width=145px href="">Приложения</a></li>
+            <li><a width=103px href="">Дизайн</a></li>
+            <li><a width=130px href="">Маркетинг</a></li>
         </ul>
       </section>
-      <section>
+      <section class="naschy-proekty">
         <h2>Наши проекты</h2>
         <ul>
             <li><img src="../Images/Tekhnokryak.jpg" alt="Технокряк" width="370">
@@ -79,17 +80,18 @@
             </li>
         </ul>
       </section>
+      </div>
     </main>
-    <footer class="">
+    <footer class="footer">
         <!-- Логотип -->
-        <a href="../studiya/studiya.html"><img src="../Images/WebStudio.svg" alt=""></a>
+        <a href="../studiya/studiya.html"><p><span class="logo">Web</span>Studio</p></a>
         <address id="address">
             <!-- Ссылка на адрес -->
-            г. Киев, пр-т Леси Украинки, д.26<br />
+            <nav class="address">г. Киев, пр-т Леси Украинки, д.26</nav><br />
             <!-- Ссылка на адрес электронной почты  -->
-            <a href="mailto:info@example.com">info@example.com</a><br />
+            <a class="link" href="mailto:info@example.com">info@example.com</a><br />
             <!-- Ссылка на телефонный номер -->
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
     </footer>
 </body>

@@ -1,0 +1,118 @@
+body {
+  font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  color: #212121;
+}
+h3 {
+  color: #212121;
+}
+p {
+  color: #757575;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: #2196f3;
+}
+.main-nav p {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+}
+.link {
+  color: #757575;
+}
+.link:hover {
+  color: #2196f3;
+}
+.main-nav a {
+  color: #212121;
+}
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #2196f3;
+}
+.main-nav a:active {
+  color: red;
+}
+.main-nav p {
+  color: #000000;
+}
+.hero {
+  background-color: #2f303a;
+  height: 600px;
+  color: #ffffff;
+  text-align: center;
+}
+.hero a {
+  color: #ffffff;
+  background-color: #2196f3;
+  height: 20px;
+  width: 200px;
+  border-radius: 3px;
+}
+/* .usluga {
+  color: #ffffff;
+  background-color: #2196f3;
+  height: 20px;
+  width: 200px;
+} */
+
+.preimuschestva {
+  height: 101px;
+}
+.preimuschestva li {
+  float: left;
+  width: 270px;
+}
+.pabota {
+  height: 386px;
+}
+.pabota li {
+  float: left;
+}
+.komanda {
+  background-color: #f5f4fa;
+}
+.komanda {
+  height: 648px;
+}
+.komanda li {
+  float: left;
+  background-color: #ffffff;
+}
+.footer {
+  background-color: #000000;
+}
+.footer p {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
+}
+.proekty {
+  height: 1360px;
+}
+.vybor-proekta a {
+  height: 38px;
+  background-color: #f5f4fa;
+  color: #212121;
+  float: left;
+}
+.vybor-proekta a:hover,
+.vybor-proekta a:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.naschy-proekty li {
+  border: 1px solid #eeeeee;
+  float: left;
+}
