@@ -1,6 +1,14 @@
-body {
+/* цвет основного текста #757575*/
+/* вторичный цвет #212121*/
+/* первичный цвет фона #FFFFFF*/
+/* вторичный цвет фона #F5F4FA*/
+/* акцент #2196F3 */
+.body {
   font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  background-color: #ffffff;
+  color: #757575;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -14,37 +22,35 @@ h2 {
 h3 {
   color: #212121;
 }
-p {
-  color: #757575;
-}
 a {
   text-decoration: none;
 }
+/* Логотип */
 .logo {
+  font-family: 'Raleway', sans-serif;
   color: #2196f3;
 }
-.main-nav p {
-  color: #000000;
+.logo-text {
   font-family: 'Raleway', sans-serif;
+  color: #000000;
 }
+/* ссылки навигации */
+.nav-link .nav-link-active {
+  color: #212121;
+}
+.nav-link .nav-link-active:hover,
+.nav-link .nav-link-active:focus {
+  color: #2196f3;
+}
+.nav-link .nav-link-active:active {
+  color: red;
+}
+/* ссылки контактов */
 .link {
   color: #757575;
 }
 .link:hover {
   color: #2196f3;
-}
-.main-nav a {
-  color: #212121;
-}
-.main-nav a:hover,
-.main-nav a:focus {
-  color: #2196f3;
-}
-.main-nav a:active {
-  color: red;
-}
-.main-nav p {
-  color: #000000;
 }
 .hero {
   background-color: #2f303a;
