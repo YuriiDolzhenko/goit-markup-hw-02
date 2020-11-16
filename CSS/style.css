@@ -117,7 +117,7 @@ h3 {
   height: 38px;
   background-color: var(--secondary-background-color);
   color: var(--secondary-text-color);
-  /* float: left; */
+  float: left;
 }
 .benefits .benefits-button:hover,
 .benefits .benefits-button:focus {
